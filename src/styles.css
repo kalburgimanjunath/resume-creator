@@ -5,3 +5,24 @@
   font-family: sans-serif;
   text-align: center;
 }
+.header {
+  @apply p-2 text-pink-400 bg-gray-100 shadow-lg;
+}
+.header div {
+  @apply p-2;
+}
+.header div div {
+  @apply hover:text-pink-300 hover:cursor-pointer;
+}
+.menus {
+  @apply p-2;
+}
+.menus div {
+  @apply p-2 cursor-pointer hover:cursor-pointer hover:text-pink-300;
+}
+.sidebar {
+  @apply shadow-2xl border-2 h-screen;
+}
+.logo {
+  @apply p-4 border-b-2;
+}
