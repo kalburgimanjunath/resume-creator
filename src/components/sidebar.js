@@ -28,7 +28,7 @@ export default function sidebar() {
     >
       <div className="logo"></div>
       <button
-        onClick={toggleTheme}
+        onClick={toggleTheme(theme.name)}
         style={{ backgroundColor: theme.background }}
       >
         Toggle Theme
